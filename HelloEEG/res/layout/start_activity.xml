@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/start_but_register"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/start_but_login"
+        android:text="@+string/but_register" />
+
+    <Button
+        android:id="@+id/start_but_login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_but_register"
+        android:layout_centerHorizontal="true"
+        android:text="@+string/but_login" />
+
+</RelativeLayout>

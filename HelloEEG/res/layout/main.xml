@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   <ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView1" android:fadeScrollbars="true" android:scrollbars="vertical" android:layout_height="wrap_content" android:layout_weight="1.00">
+           
+         <TextView android:id="@+id/main_tv_state" android:layout_width="fill_parent" android:hint="@+string/tv_state" android:layout_height="fill_parent"></TextView>
+    
+    </ScrollView>
+
+    <Button
+        android:id="@+id/main_but_exit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@+string/but_exit" />
+
+    <Button
+        android:id="@+id/main_but_connect"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="doStuff"
+        android:text="@+string/but_connect" />
+
+    <Button
+        android:id="@+id/main_but_set"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1.00"
+        android:text="@+string/but_set" />
+
+</RelativeLayout>
